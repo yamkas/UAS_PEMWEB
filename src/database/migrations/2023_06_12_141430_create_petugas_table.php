@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('petugas', function (Blueprint $table) {
             $table->string('id_petugas');
             $table->string('nama_petugas');
-            $table->string('no_hp');
+            $table->string('hp');
             $table->timestamps();
         });
     }

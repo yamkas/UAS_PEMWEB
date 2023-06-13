@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('nim');
             $table->string('nama_anggota');
             $table->string('prodi');
-            $table->string('no_hp');
+            $table->string('hp');
             $table->timestamps();
         });
     }
