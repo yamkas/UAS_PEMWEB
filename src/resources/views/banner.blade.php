@@ -1,5 +1,5 @@
 <!--awal BANNER-->
 <div class="col-md-12">
-    <img src="{{ asset('gambar') }}/atas.jpg" width="100%" height="280px">
+    <img src="{{ asset('gambar') }}/top.jpg" width="100%" height="280px">
 </div>
 <!--akhir BANNER-->
