@@ -13,7 +13,7 @@
         <thead>
             <tr>
                 <td align="center">No</td>
-                <td align="center">ID Petugas</td>
+                <td align="center">ID_Petugas</td>
                 <td align="center">Nama Petugas</td>
                 <td align="center">HP</td>
                 <td align="center">Aksi</td>

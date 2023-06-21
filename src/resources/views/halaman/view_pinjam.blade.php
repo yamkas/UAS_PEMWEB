@@ -3,7 +3,7 @@
 
 @section('isihalaman')
     <h3><center>Data Peminjaman Buku</center><h3>
-    <h3><center>Perpustakaan Universitas Semarang</center></h3>
+    <h3><center>Perpustakaan Universitas Esa Unggul Citra Raya</center></h3>
 
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalPinjamTambah"> 
         Tambah Data Peminjaman 
@@ -14,7 +14,6 @@
         <thead>
             <tr>
                 <td align="center">No</td>
-                <td align="center">ID Pinjam</td>
                 <td align="center">Nama Petugas</td>
                 <td align="center">Nama Anggota</td>
                 <td align="center">Judul Buku</td>
@@ -26,7 +25,6 @@
             @foreach ($pinjam as $index=>$p)
                 <tr>
                     <td align="center" scope="row">{{ $index + $pinjam->firstItem() }}</td>
-                    <td align="center">{{$p->id_pinjam}}</td>
                     <td>{{$p->petugas->nama_petugas}}</td>
                     <td>{{$p->anggota->nama_anggota}}</td>
                     <td>{{$p->buku->judul}}</td>

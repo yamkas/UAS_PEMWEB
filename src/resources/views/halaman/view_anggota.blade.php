@@ -2,7 +2,7 @@
 @section('title', 'Anggota')
 
 @section('isihalaman')
-    <h3><center>Daftar Anggota Perpustakaan Universitas Semarang</center></h3>
+    <h3><center>Daftar Anggota Perpustakaan Universitas Esa Unggul Citra Raya</center></h3>
     
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalAnggotaTambah"> 
         Tambah Data anggota 
@@ -13,7 +13,7 @@
         <thead>
             <tr>
                 <td align="center">No</td>
-                <td align="center">ID Anggota</td>
+                <td align="center">ID_Anggota</td>
                 <td align="center">NIM</td>
                 <td align="center">Nama Anggota</td>
                 <td align="center">Prodi</td>

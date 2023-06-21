@@ -2,7 +2,7 @@
 @section('title', 'Buku')
 
 @section('isihalaman')
-    <h3><center>Daftar Buku Perpustakaan Universitas Semarang</center></h3>
+    <h3><center>Daftar Buku Perpustakaan Universitas Esa Unggul Citra Raya</center></h3>
     
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalBukuTambah"> 
         Tambah Data Buku 
@@ -13,7 +13,7 @@
         <thead>
             <tr>
                 <td align="center">No</td>
-                <td align="center">ID Buku</td>
+                <td align="center">ID_Buku</td>
                 <td align="center">Kode Buku</td>
                 <td align="center">Judul Buku</td>
                 <td align="center">Pengarang</td>

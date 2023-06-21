@@ -14,9 +14,9 @@ return new class extends Migration
     public function up()
     {
         Schema::create('petugas', function (Blueprint $table) {
-            $table->string('id_petugas');
-            $table->string('nama_petugas');
-            $table->string('hp');
+            $table->bigIncrements('id_petugas')->nullable();
+            $table->string('nama_petugas')->nullable();
+            $table->string('hp')->nullable();
             $table->timestamps();
         });
     }
