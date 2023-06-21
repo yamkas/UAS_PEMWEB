@@ -14,6 +14,7 @@
         <thead>
             <tr>
                 <td align="center">No</td>
+                <td align="center">ID_Pinjam</td>
                 <td align="center">Nama Petugas</td>
                 <td align="center">Nama Anggota</td>
                 <td align="center">Judul Buku</td>
@@ -25,6 +26,7 @@
             @foreach ($pinjam as $index=>$p)
                 <tr>
                     <td align="center" scope="row">{{ $index + $pinjam->firstItem() }}</td>
+                    <td>{{$p->id_pinjam}}</td>
                     <td>{{$p->petugas->nama_petugas}}</td>
                     <td>{{$p->anggota->nama_anggota}}</td>
                     <td>{{$p->buku->judul}}</td>

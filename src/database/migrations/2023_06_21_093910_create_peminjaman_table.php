@@ -14,7 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('peminjaman', function (Blueprint $table) {
-            $table->integer('id_pinjam')->nullable();
+            $table->bigIncrements('id_pinjam')->nullable();
             $table->integer('id_petugas')->nullable();
             $table->integer('id_anggota')->nullable();
             $table->integer('id_buku')->nullable();
