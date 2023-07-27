@@ -18,4 +18,4 @@
 
 # Jika eror saat mensave file di src
 - chmod 777 -R src
-.
+
