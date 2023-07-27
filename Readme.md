@@ -4,7 +4,7 @@
 - TEKNIK INFORMATIKA
 
 # Studi Kasus
-- Perpustakaan
+- CRUD Perpustakaan
 
 # Deployment
 - Run docker-compose up -d --build
